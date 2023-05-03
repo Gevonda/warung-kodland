@@ -1,0 +1,25 @@
+body {
+    background: gray;
+}
+
+body h2 {
+    font-size: 50px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body p {
+    font-size: 25px;
+    color: brown;
+}
+
+.login {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
