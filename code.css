@@ -187,28 +187,28 @@ body {
 }
 
 .logreg-box .form-box.login {
-    transform: translateX(0);
+    transform: translatey(0);
     transition: transform .6s ease;
     transition-delay: .7s;
 }
 
 .logreg-box.active .form-box.login {
-    transform: translateX(430px);
+    transform: translateX(500px);
     transition-delay: 0s;
-    -webkit-transform: translateX(430px);
-    -moz-transform: translateX(430px);
-    -ms-transform: translateX(430px);
-    -o-transform: translateX(430px);
+    -webkit-transform: translateX(500px);
+    -moz-transform: translateX(500px);
+    -ms-transform: translateX(500px);
+    -o-transform: translateX(500px);
 }
 
 .logreg-box .form-box.register {
-    transform: translateX(430px);
+    transform: translateX(500px);
     transition: transform .6s ease;
     transition-delay: 0s;
-    -webkit-transform: translateX(430px);
-    -moz-transform: translateX(430px);
-    -ms-transform: translateX(430px);
-    -o-transform: translateX(430px);
+    -webkit-transform: translateX(500px);
+    -moz-transform: translateX(500px);
+    -ms-transform: translateX(500px);
+    -o-transform: translateX(500px);
     -webkit-transition: transform .6s ease;
     -moz-transition: transform .6s ease;
     -ms-transition: transform .6s ease;
