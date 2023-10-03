@@ -4,56 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Final test</title>
+    <title>Final Test Gevo</title>
+    <link rel="stylesheet" href="code.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav class="wrapper">
-            <div class="brand">
-                <div class="firstname">red</div>
-                <div class="lastname">star</div>
-            </div>
-            <ul class="navigation">
-                <li><a href="C:\warung-kodland-main\warung-kodland-main\index.html">home</a></li>
-                <li><a href="C:\warung-kodland-main\warung-kodland-main\code.html" class="active">log in</a></li>
-                <li><a href="C:\warung-kodland-main\warung-kodland-main\script.html">About me</a></li>
-                <li><img src="red star.png" alt="..."/></>
-            </ul>
+    
+    <header class="header">
+        <nav class="navbar">
+            <a href="C:\warung-kodland-main\warung-kodland-main\script.html">About</a>
+            <a href="C:\warung-kodland-main\warung-kodland-main\mail.html">Contact</a>
+    
         </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="Submit"><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="Logo"> <i class='bx bxl-firebase'></i>Gevonda Website</h2>
+            <div class="text-sci">
+                <h2>Welcome! <br> <span>To My First website</span></h2>
+                <p>Website to teach you some coding lesson and your teacher = Mr.Gevonda</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login" >
+                <form action="#">
+                    <h2>Sign in</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required id="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required id="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="btn" value="login" onclick="auth()">Sign In</button>
+
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register" >
+                <form action="#">
+                    <h2>Sign up</h2>
     
-    <div class="fContainer">
-       <center><h1 class="home">welcome to this web</h1></center>
-       <h2 class="home1">home site</h2>
-       <nav class="nav">
-           <center><h1 class="step">STEP BY STEP</h1></center> 
-       </nav>
-       <main>
-            <p class="step1">STEP#1</p>
-            <p>Kalian bisa login ke web ini dulu atau sign up</p>
-            <span class="empty"></span>
-            <p class="STEP2">STEP#2</p>
-            <p class="start">Kalau sudah mari kita mulai! Pertama kalian harus Contact aku dulu di sd18191093@talenta.sch.id, nanti kalau sudah aku aprove aku contact kalian lagi.</p>
-            <p class="STEP3">STEP#3</p>
-            <p class="buy">Kalian bisa berbayar atau bisa sebulan gratis dulu.</p>
-            <p class="STEP4">STEP#4</p>
-            <p class="end">Nanti aku kasih jadwal pertemuan dan akan kuajari cara coding yang baik dan benar</p>
-            <p class="STEP5">STEP#5</p>
-            <p class="ended"> Have fun and enjoy the class.</p>
-            <h1 class="ty">THANK YOU</h1>
-        </main>
-
-        <footer>
-            
-            <nav class="nav1">
-            
-                <center><p class="login">Dibuat tahun 2023 oleh Gevonda</p></center>
-            </nav>
-
-            
-        </footer>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Accept terms & conditions?</label>
+                        
+                    </div>
     
-    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+    
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Sign In</a></p>
 
 
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+
+    <script src="script.js"></script>
 </body>
 </html>
